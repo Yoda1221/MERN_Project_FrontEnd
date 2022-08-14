@@ -26,10 +26,18 @@
 ## Start Project
 - npx create-react-app ./  -y
 - npm i react-router-dom sass
+- npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons fortawesome/react-fontawesome
 
 ## Create folders (MacOSX Teminal)
+- md src/components src/sass
+- md src/features src/features/auth src/features/users
 
 ## Create files (MacOSX Teminal)
+- touch src/sass/style.scss src/sass/_base.scss src/sass/_public.scss src/sass/_dash.scss
+- touch src/components/index.js src/components/Public.js src/components/Layout.js
+- touch src/components/DashLayout.js src/components/DashHeader.js  src/components/DashFooter.js
+- touch src/features/auth/Login.js src/features/auth/Welcome.js
+- touch  src/features/users/UsersList.js
 
 
 
@@ -47,11 +55,12 @@
 
 
 
-# Getting Started with Create React App
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 

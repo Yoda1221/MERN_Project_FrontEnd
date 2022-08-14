@@ -1,0 +1,36 @@
+.public,
+.welcome {
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.public {
+  width: 100%;
+  
+  header {
+    padding: 0.5rem 2rem;
+    border-bottom: 1px solid darken($bgColor, 20%);
+  }
+  
+  .main {
+    padding: 0.5rem 2rem;    
+    
+    .addr {
+      margin-top: 1em;
+    }
+  }
+  
+  footer {
+    display: flex;
+    padding: 0.5rem 1rem;
+    position: sticky;
+    justify-content: center;
+    background-color: $bgColor;
+    border-top: 1px solid darken($bgColor, 10);
+  }
+}
+
+.welcome a::before {
+  content: "➜ "
+}
