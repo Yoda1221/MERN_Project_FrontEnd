@@ -26,18 +26,20 @@
 ## Start Project
 - npx create-react-app ./  -y
 - npm i react-router-dom sass
+- npm i @reduxjs/toolkit react-redux
 - npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons fortawesome/react-fontawesome
 
 ## Create folders (MacOSX Teminal)
-- md src/components src/sass
+- md src/components src/sass src/app src/app/api
 - md src/features src/features/auth src/features/users
 
 ## Create files (MacOSX Teminal)
 - touch src/sass/style.scss src/sass/_base.scss src/sass/_public.scss src/sass/_dash.scss
-- touch src/components/index.js src/components/Public.js src/components/Layout.js
-- touch src/components/DashLayout.js src/components/DashHeader.js  src/components/DashFooter.js
-- touch src/features/auth/Login.js src/features/auth/Welcome.js
-- touch  src/features/users/UsersList.js
+- touch src/components/index.js src/components/Public.jsx src/components/Layout.jsx
+- touch src/components/DashLayout.jsx src/components/DashHeader.jsx  src/components/DashFooter.jsx
+- touch src/features/auth/Login.jsx src/features/auth/Welcome.jsx
+- touch src/features/users/UsersList.jsx src/features/users/usersApiSlice.js src/features/users/User.jsx
+- touch src/app/store.js src/app/api/apiSlice.js
 
 
 
