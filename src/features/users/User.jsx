@@ -16,6 +16,7 @@ const User = ({ userId }) => {
         return (
             <tr className="table__row user">
                 <td className={`table__cell ${cellStatus}`}>{user.userName}</td>
+                <td className={`table__cell ${cellStatus}`}>{user.email}</td>
                 <td className={`table__cell ${cellStatus}`}>{userRolesString}</td>
                 <td className={`table__cell ${cellStatus}`}>
                     <button

@@ -30,16 +30,17 @@
 - npm i @fortawesome/fontawesome-svg-core @fortawesome/free-solid-svg-icons fortawesome/react-fontawesome
 
 ## Create folders (MacOSX Teminal)
-- md src/components src/sass src/app src/app/api
+- md src/components src/sass src/app src/app/api src/config
 - md src/features src/features/auth src/features/users
 
 ## Create files (MacOSX Teminal)
-- touch src/sass/style.scss src/sass/_base.scss src/sass/_public.scss src/sass/_dash.scss
+- touch src/sass/style.scss src/sass/_base.scss src/sass/_public.scss src/sass/_dash.scss src/sass/_form.scss
 - touch src/components/index.js src/components/Public.jsx src/components/Layout.jsx
 - touch src/components/DashLayout.jsx src/components/DashHeader.jsx  src/components/DashFooter.jsx
 - touch src/features/auth/Login.jsx src/features/auth/Welcome.jsx
-- touch src/features/users/UsersList.jsx src/features/users/usersApiSlice.js src/features/users/User.jsx
-- touch src/app/store.js src/app/api/apiSlice.js
+- touch src/features/users/index.js src/features/users/usersApiSlice.jsx src/features/users/User.jsx
+- touch src/features/users/UsersList.jsx src/features/users/EditUser.jsx src/features/users/NewUser.jsx
+- touch src/app/store.js src/app/api/apiSlice.js src/config/config.js src/features/users/EditUserForm.jsx
 
 
 
