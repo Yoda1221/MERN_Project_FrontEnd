@@ -22,12 +22,12 @@ const EditUserForm = ({ user }) => {
 
     const navigate = useNavigate()
 
-    const [email, setEmail]           = useState(user.email)
+    const [email, setEmail]             = useState(user.email)
     const [validUsername, setValidUsername] = useState(false)
-    const [validEmail, setValidEmail] = useState(false)
-    const [roles, setRoles]                 = useState(user.roles)
-    const [active, setActive]               = useState(user.active)
-    const [username, setUsername]           = useState(user.userName)
+    const [validEmail, setValidEmail]   = useState(false)
+    const [roles, setRoles]             = useState(user.roles)
+    const [active, setActive]           = useState(user.active)
+    const [username, setUsername]       = useState(user.userName)
 
     const errClass          = (isError || isDelError) ? "errmsg" : "offscreen"
     const validUserClass    = !validUsername ? 'form__input--incomplete' : ''
